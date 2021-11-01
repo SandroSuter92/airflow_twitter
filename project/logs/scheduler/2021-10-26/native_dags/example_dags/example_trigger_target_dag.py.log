@@ -1,0 +1,12 @@
+[2021-10-26 15:08:35,281] {processor.py:163} INFO - Started process (PID=336) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2021-10-26 15:08:35,283] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2021-10-26 15:08:35,285] {logging_mixin.py:109} INFO - [2021-10-26 15:08:35,285] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2021-10-26 15:08:35,359] {processor.py:632} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2021-10-26 15:08:39,219] {logging_mixin.py:109} INFO - [2021-10-26 15:08:39,219] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-26 15:08:40,133] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,132] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-26 15:08:40,194] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,194] {manager.py:496} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2021-10-26 15:08:40,214] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,214] {manager.py:496} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2021-10-26 15:08:40,216] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,214] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-26 15:08:40,238] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,236] {dag.py:2408} INFO - Creating ORM DAG for example_trigger_target_dag
+[2021-10-26 15:08:40,250] {logging_mixin.py:109} INFO - [2021-10-26 15:08:40,250] {dag.py:2914} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2021-10-26 15:08:40,273] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py took 5.002 seconds

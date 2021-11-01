@@ -1,0 +1,19 @@
+[2021-10-26 15:08:05,529] {processor.py:163} INFO - Started process (PID=164) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:05,535] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-10-26 15:08:05,538] {logging_mixin.py:109} INFO - [2021-10-26 15:08:05,537] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:05,591] {processor.py:632} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:07,613] {logging_mixin.py:109} INFO - [2021-10-26 15:08:07,613] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-26 15:08:08,140] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,140] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-26 15:08:08,173] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,173] {manager.py:496} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2021-10-26 15:08:08,185] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,185] {manager.py:496} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2021-10-26 15:08:08,188] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,186] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-26 15:08:08,204] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,202] {dag.py:2408} INFO - Creating ORM DAG for example_skip_dag
+[2021-10-26 15:08:08,213] {logging_mixin.py:109} INFO - [2021-10-26 15:08:08,213] {dag.py:2914} INFO - Setting next_dagrun for example_skip_dag to 2021-10-25T15:08:08.213244+00:00
+[2021-10-26 15:08:08,237] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py took 2.716 seconds
+[2021-10-26 15:08:47,788] {processor.py:163} INFO - Started process (PID=396) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:47,793] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2021-10-26 15:08:47,795] {logging_mixin.py:109} INFO - [2021-10-26 15:08:47,795] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:47,881] {processor.py:632} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+[2021-10-26 15:08:47,918] {logging_mixin.py:109} INFO - [2021-10-26 15:08:47,917] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-26 15:08:47,969] {logging_mixin.py:109} INFO - [2021-10-26 15:08:47,969] {dag.py:2914} INFO - Setting next_dagrun for example_skip_dag to 2021-10-25T15:08:47.968612+00:00
+[2021-10-26 15:08:47,988] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py took 0.209 seconds
