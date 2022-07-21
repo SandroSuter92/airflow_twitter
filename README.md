@@ -6,8 +6,8 @@ The goal of the DAG's is to regularly fetch Data from twitter and XXXXXX about B
 
 ## DAG's
 
-[Bitcoin Twitter]()
+[Bitcoin Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/ADA_dag.py)
 
-[Cardano Twitter]()
+[Cardano Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/ADA_dag.py)
 
-[Elon Musk Twitter]()
+[Elon Musk Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/ADA_dag.py)
