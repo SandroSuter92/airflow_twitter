@@ -10,4 +10,4 @@ The goal of the DAG's is to regularly fetch Data from twitter about Bitcoin and 
 
 [Cardano Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/ADA_dag.py)
 
-[Elon Musk Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/Musk_dag.py)
+[Elon Musk Twitter](https://github.com/SandroSuter92/airflow_twitter/blob/master/project/dags/musk_dag.py)
